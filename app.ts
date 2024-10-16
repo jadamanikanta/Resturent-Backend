@@ -25,7 +25,7 @@ app.listen(3000, () => {
 app.use(express.json());
 
 
-app.use('/api/restaurants', Routers);
+app.use('/api/v1', Routers);
 
 
 const handler = serverless(app);
